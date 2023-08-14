@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 def printhelloWorld():
-    html_content = "<h1>Trying some fastAPI</h1>"
+    html_content = "<h1>I'm a fastAPI</h1>"
     return HTMLResponse(content=html_content)
 
 @app.get("/hello")
